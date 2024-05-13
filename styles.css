@@ -1,0 +1,52 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fceabb;
+}
+
+h1 {
+    color: #ff847c;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: #669bbc;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff847c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc4c39;
+}
+
+input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #669bbc;
+    margin: 10px;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px dashed #669bbc;
+    border-radius: 10px;
+    animation: shake 0.5s ease infinite alternate;
+}
+
+@keyframes shake {
+    0% { transform: translateX(-5px); }
+    100% { transform: translateX(5px); }
+}
